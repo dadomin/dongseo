@@ -1,11 +1,13 @@
 /* initialize */
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #000;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 a {
@@ -374,7 +376,7 @@ header {
     margin: 100px auto;
 }
 .profile-main {
-    width: 1000px;
+    width: 1100px;
     height: auto;
     margin: 0 auto;
     padding: 50px 0;
@@ -396,7 +398,7 @@ header {
     transform: translateX(-50%);
 }
 .profile-info {
-    width: 500px;
+    width: 600px;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -409,18 +411,19 @@ header {
 .profile-info > h3 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #555;
+    color: #333;
 }
 .profile-info > p {
     margin-bottom: 40px;
-    color: #777;
+    color: #555;
+    line-height: 1.7;
 }
 .profile-info > p > b {
     font-size: 1.2em;
-    color: #777;
+    color: #444;
 }
 #profile-sns > li {
-    color: #777;
+    color: #333;
     margin: 10px auto;
 }
 #profile-sns > li > span {
@@ -429,7 +432,9 @@ header {
     font-weight: 500;
     width: 120px;
 }
-
+#profile-sns > li > a {
+    display: inline-block !important;
+}
 .profile-projects {
     width: 1000px;
     height: auto;
