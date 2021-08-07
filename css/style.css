@@ -433,7 +433,8 @@ header {
     width: 120px;
 }
 #profile-sns > li > a {
-    display: inline-block !important;
+    display: inline-block;
+    width: 120px;
 }
 .profile-projects {
     width: 1000px;
